@@ -16,7 +16,7 @@ The ```upCaseWord()``` method should look at the sentence the user entered and i
 ## Examples:
 * ```This is Stratford.``` becomes ```This IS STRATFORD.```
 * ```you and yours``` becomes ```YOU AND yours```
-* ```Stratford stratford Stratford``` becomes ```STRATFORD stratford Stratford```
+* ```Stratford stratford Stratford``` becomes ```STRATFORD stratford STRATFORD```
 
 The ```sentenceStats()``` method should look at the original sentence and find and print the following:
 * the total number of characters
