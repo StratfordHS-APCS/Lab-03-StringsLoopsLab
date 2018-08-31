@@ -42,16 +42,16 @@ Enter a sentence: done
 * A list of all Java String functions can be found at https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
 * A list of all Java Character functions can be found at https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html
 * Things I found useful (you can look up how to use these):
-  * String.toLowerCase()
-  * String.toUpperCase()
-  * String.substring()
-  * String.charAt()
-  * Character.isLetterOrDigit()
-  * String.trim()
-  * String.split()
-  * Character.isLowerCase()
-  * Character.isUpperCase()
-* Don't forget you can't compare strings using ```==```.  You must use String.equals().
+  * ```String.toLowerCase()```
+  * ```String.toUpperCase()```
+  * ```String.substring()```
+  * ```String.charAt()```
+  * ```String.trim()```
+  * ```String.split()```
+  * ```Character.isLetterOrDigit()```
+  * ```Character.isLowerCase()```
+  * ```Character.isUpperCase()```
+* Don't forget you can't compare strings using ```==```.  You must use ```String.equals()```.
 
 ## Relevant ThinkJava Sections
 * [The While Statement](http://greenteapress.com/thinkjava6/html/thinkjava6008.html#sec82)
@@ -65,9 +65,9 @@ Enter a sentence: done
 * After cloning your repo from GitHub you can open your code in BlueJ by double clicking on the **package** file.
 
 ## Grading
-* 20 - main()
-* 40 - upCaseWord()
-* 30 - sentenceStats()
+* 20 - ```main()```
+* 40 - ```upCaseWord()```
+* 30 - ```sentenceStats()```
 * 10 - style
 
 Note that these are potential maximums; the computer can only check so much.  If your code passes checkstyle, but I see non-descriptive variable names, then your style grade will go down.  If your code passes all tests, but I see code that was copied off of the internet or from another student your grade will go *way* down.
