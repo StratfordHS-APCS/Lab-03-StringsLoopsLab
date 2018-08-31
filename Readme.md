@@ -14,9 +14,9 @@ The ```main()``` method should:
 The ```upCaseWord()``` method should look at the sentence the user entered and if any of the words in the ```words``` array are present replace them with an all caps version of the word.  Be careful, you might think you can just user String.replaceAll(), but if you use that to replace all instances if "is" with "IS" it will also replace "this" with "thIS" which is not what you want.  After doing all necessary replacements print the new sentence to the console.
 
 ## Examples:
-* This is Stratford.   -->    This IS STRATFORD.
-* you and yours        -->    YOU AND yours
-* Stratford stratford Stratford   -->    STRATFORD stratford Stratford
+* ```This is Stratford.``` becomes ```This IS STRATFORD.```
+* ```you and yours``` becomes ```YOU AND yours```
+* ```Stratford stratford Stratford``` becomes ```STRATFORD stratford Stratford```
 
 The ```sentenceStats()``` method should look at the original sentence and find and print the following:
 * the total number of characters
